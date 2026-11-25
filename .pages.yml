@@ -1,0 +1,95 @@
+media:
+  input: images
+  output: images
+  rename: safe
+  categories: [image]
+
+content:
+  - name: frame-by-frame
+    label: Frame by Frame
+    type: file
+    path: frames.json
+    format: json
+    fields:
+      - name: frames
+        label: Film Photographs
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{title}"
+        fields:
+
+          - name: title
+            label: Photograph Title
+            type: string
+            required: true
+
+          - name: image
+            label: Upload Photograph
+            type: image
+
+          - name: external_image
+            label: External Image URL (pCloud)
+            type: string
+
+          - name: location
+            label: Location
+            type: string
+
+          - name: date
+            label: Date Taken
+            type: string
+
+          - name: stock
+            label: Film Stock
+            type: string
+
+          - name: camera
+            label: Camera
+            type: string
+
+          - name: lens
+            label: Lens
+            type: string
+
+          - name: iso
+            label: ISO
+            type: string
+
+          - name: aperture
+            label: Aperture
+            type: string
+
+          - name: shutter
+            label: Shutter Speed
+            type: string
+
+          - name: lighting
+            label: Lighting Conditions
+            type: text
+
+          - name: comment
+            label: Story Behind the Photograph
+            type: text
+
+          - name: technique
+            label: How I Took the Shot
+            type: text
+
+          - name: editing
+            label: Editing and Scanning Notes
+            type: text
+
+          - name: lessons
+            label: What I Learned
+            type: text
+
+          - name: print_url
+            label: Purchase Print URL
+            type: string
+
+          - name: published
+            label: Show on Website
+            type: boolean
+            default: true
