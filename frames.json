@@ -1,18 +1,15 @@
 {
   "frames": [
     {
+      "image": "images/pink-rose-film-photography-among-the-grain.jpg",
       "title": "A Quiet Bloom",
-      "external_image": "https://filedn.com/lCTv0gwdA5TLNCNHK7J7euQ/pink-rose-film-photography-among-the-grain.jpg",
-      "location": "",
-      "stock": "",
-      "camera": "",
-      "lens": "",
-      "comment": "A delicate pink rose surrounded by deep green foliage.",
-      "technique": "",
-      "editing": "No additional digital edits",
-      "lessons": "",
-      "print_url": "",
-      "published": true
+      "comment": "A delicate pink rose surrounded by deep green foliage."
+    },
+    {
+      "image": "images/mother-daughter-backyard-family-film-photography-1.jpg",
+      "title": "The Freedom of Being Little",
+      "stock": "Kodak Ultramax 400",
+      "comment": "Anna and her daughter Hazel playing in the backyard. These are the kinds of everyday moments I love documenting on film."
     }
   ]
 }
